@@ -7,17 +7,18 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("/Users/brandonlevy/Desktop/bitmaker/projects/css-site-replication/starter-code/images/bgtile.png");
+  background-repeat: repeat-x;
 
 }
-
-
 
 .content {
   color:#06365f;
   background-color: #06365f;
   position: relative;
-
+  height: 314px;
 }
+
 #front {
   color:#06365f;
   background-color: white;
@@ -25,31 +26,25 @@ body {
   width:300px;
   position: absolute;
   overflow:hidden;
-
 }
 
 div#front {
     right: 12%;
-    top: 68%;
+    top: 28%;
+    padding-left: 35px;
+    padding-right: 60px;
 }
 
 .page {
      height: 600px;
 }
 
-.content {
-    height: 314px;
-}
-
-div#front {
-    padding-left: 35px;
-    padding-right: 60px;
-}
-
-.content>img {
+img#brand {
     position: absolute;
-    top: 100px;
-    right: 439px;
+    top: 15%;
+    right: 35%;
+    width:25%;
+    z-index: 10;
 }
 
 a img {
@@ -59,22 +54,8 @@ a img {
     padding-right: 15px;
 }
 
-img {}
-
 a#apple {
     float: left;
-}
-
-a#google {
-    /* float: right; */
-}
-
-p {
-    /* width: 353px; */
-}
-
-div#front {
-    /* overflow: hidden; */
 }
 
 a#apple {
@@ -90,18 +71,24 @@ a#google {
 }
 img#case {
     position: absolute;
-    left: 10%;
+    left: 12%;
+    width:25%;
+    top:20%;
+    z-index: 10;
+
 }
 footer {padding-top: 50px;
 text-align: center;
 padding-left: 150px;
-padding-right: 300px}
+padding-right: 300px;
+}
 
 li {float:left;
 display:inline-block;
-padding:20px;
+padding-left:2%;
+padding-right: 5px;
 }
-h3 {float:right}
+span {float:right}
 h4 {
     float: right;
     /* display: inline; */
@@ -110,16 +97,18 @@ h4 {
 }
 
 div#home {
-    border: 10px solid black;
+    border: 3px solid black;
+    background-color: #1c5380;
 }
 
 div#home {
     color: white;
+    z-index: 10;
 }
 
 div#home {
     position: absolute;
-    top: 27%;
+    top: 15%;
     right: 21%;
 }
 div#home {padding-right: 22px;}
@@ -129,5 +118,5 @@ div#home {padding-right: 22px;}
     padding-top: 20px;
 }
 div#front {
-    width: 517px;
+    width: 40%;
 }
