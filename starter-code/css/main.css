@@ -88,7 +88,16 @@ display:inline-block;
 padding-left:2%;
 padding-right: 5px;
 }
-span {float:right}
+
+ul a{
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 400;
+}
+span {float:right;
+text-transform: uppercase;
+color: grey;}
+
 h4 {
     float: right;
     /* display: inline; */
@@ -97,8 +106,9 @@ h4 {
 }
 
 div#home {
-    border: 3px solid black;
-    background-color: #1c5380;
+    border: 1px solid darkblue;
+    background-color: #306b9c;
+    border-radius: 10px;
 }
 
 div#home {
@@ -108,10 +118,11 @@ div#home {
 
 div#home {
     position: absolute;
-    top: 15%;
+    top: 14%;
     right: 21%;
 }
-div#home {padding-right: 22px;}
+div#home {padding-right: 22px;
+      padding-left: 10px;}
 
 #home img {
     float: left;
@@ -120,3 +131,5 @@ div#home {padding-right: 22px;}
 div#front {
     width: 40%;
 }
+
+p {font-weight: 400;}
